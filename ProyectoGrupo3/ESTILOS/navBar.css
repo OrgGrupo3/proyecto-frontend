@@ -1,0 +1,96 @@
+    .top-bar {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 24px 40px 0 0;
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+    .top-bar button {
+      margin-left: 18px;
+      padding: 10px 22px;
+      border-radius: 4px;
+      border: none;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      box-shadow: 0 2px 8px rgba(86,171,47,0.10);
+    }
+    .btn-login {
+      background: #43a047;
+      color: #fff;
+    }
+    .btn-login:hover {
+      background: #2e7031;
+    }
+    .btn-register {
+      background: #fff;
+      color: #43a047;
+      border: 2px solid #43a047;
+    }
+    .btn-register:hover {
+      background: #eafbe3;
+    }
+    .btn-about {
+      background: #eafbe3;
+      color: #2e7031;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 4px;
+      border: 2px solid #43a047;
+      font-weight: bold;
+      margin-left: 18px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn-about:hover {
+      background: #c8e6c9;
+      color: #1b5e20;
+    }
+
+/* estilo icono google*/
+
+    .google-btn {
+      background: #fff;
+      color: #444;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-size: 0.95em;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 0;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 0;
+      cursor: pointer;
+      transition: background 0.2s, border 0.2s;
+    }
+    .google-btn:hover {
+      background: #f5f5f5;
+      border: 1px solid #888;
+    }
+    .google-btn-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .google-icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 4px;
+      margin-left: 0;
+      vertical-align: middle;
+    }
+    .google-text {
+      font-weight: 500;
+      color: #444;
+      display: inline-block;
+      text-align: center;
+    }
